@@ -7,7 +7,7 @@ from PIL import Image
 # --- Functions ---
 
 @st.cache_data
-def load_image_pairs(data_folder="Data_Applied_math_middle"):
+def load_image_pairs(data_folder="Applied_math_middle/Data"):
     """
     Loads and pairs front (problem) and back (solution) images from a directory.
     It sorts files numerically to ensure correct pairing (e.g., f1.png with b1.png).
