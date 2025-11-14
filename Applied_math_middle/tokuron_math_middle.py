@@ -7,7 +7,7 @@ from PIL import Image
 # --- Functions ---
 
 @st.cache_data
-def load_image_pairs(data_folder="tokuron_math_middle/Data_tokuron_middle"):
+def load_image_pairs(data_folder="Applied_math_middle/Data_tokuron_middle"):
     """
     Loads and pairs front (problem) and back (solution) images from a directory 
     by matching the extracted numerical ID (e.g., f1.png matches b1.png).
