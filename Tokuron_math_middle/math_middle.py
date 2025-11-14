@@ -13,8 +13,8 @@ def load_image_pairs(data_folder="Applied_math_middle/Data"):
     by matching the extracted numerical ID (e.g., f1.png matches b1.png).
     Missing files in either directory will be safely skipped.
     """
-    front_dir = os.path.join(data_folder, "front")
-    back_dir = os.path.join(data_folder, "back")
+    front_dir = os.path.join(data_folder, "/Users/thanongphoneanothay/X_KOSEN/YEAR4/MATH/Math_Test/Tokuron_math_middle/Data/front")
+    back_dir = os.path.join(data_folder, "/Users/thanongphoneanothay/X_KOSEN/YEAR4/MATH/Math_Test/Tokuron_math_middle/Data/back")
 
     if not os.path.isdir(front_dir) or not os.path.isdir(back_dir):
         st.error(f"エラー: '{front_dir}' または '{back_dir}' フォルダが見つかりません。")
